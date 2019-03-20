@@ -1,7 +1,7 @@
-const hangso = 'const';
-let dunglet = 'let';
-var dungvar = 'var';
-
-console.log(window.hangso);
-console.log(window.dunglet);
-console.log(window.dungvar);
+const array = [1,9,3];
+ 
+function getMaxNumber(arr){
+  return Math.max.apply(null, arr);
+}
+ 
+console.log(getMaxNumber(array)); // should return 3
