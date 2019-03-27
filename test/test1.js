@@ -1,8 +1,19 @@
-var a = {name: 1};
-console.log(a.name);
+// let view;
 
-var b = (function(arg) {
-    arg = 5;    
-})(a);
+// function initialize() {  
+//   return function() {
+//     if (view) {
+//       return
+//     } else {
+//       view = '🏔';
+//       called = true;
+//       console.log('view has been set!')
+//     }
+//   }
+// }
 
-console.log(a);
+// const start = initialize();
+// start();
+// start();
+// start();
+// console.log(view)
