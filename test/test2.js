@@ -23,3 +23,12 @@ for(var i=0; i < array.length; i++) {
 }
 
 var i = 10;
+
+class Test {
+  f (){
+    console.log(this)
+  }
+}
+
+var test = new Test;
+test.f();
